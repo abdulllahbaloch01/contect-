@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.col-6{
+    width: 40%;
+    flex: 0 0 40%;
+}
+.container{
+    margin: 40px 0px 0px 0px ;
+    background: rgb(165,237,184);
+background: linear-gradient(90deg, rgba(165,237,184,0.7185947584069293) 17%, rgba(155,240,242,0.9920343137254902) 88%);
+margin: 20px;
+border-radius: 40px;
+}
+.form input{
+    font-size: 20px;
+    border: 1px solid #1a1919;
+    margin: 10px 0px 10px 0px;
+}
+.form label{
+    font-size: 20px;
+}
+.form{
+    margin: 80px;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
